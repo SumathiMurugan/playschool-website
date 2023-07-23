@@ -1,0 +1,191 @@
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.kid h1 {
+  font-family: sans-serif;
+  font-size: 50px;
+  color:rgba(82, 3, 55, 0.863);
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+  
+}
+.column3 {
+  float: right;
+  width: 28%;
+  margin-bottom: 10px;
+  padding: 0 8px;
+  background-color: rgb(155, 16, 16);
+  font-size: 16px;
+}
+.column3 table{
+  background-color: white;
+}
+.column1 {
+  float:right;
+  width: 28%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  background-color: rgb(238, 196, 81);
+  font-size: 16px;
+}
+.column1 table{
+  background-color:white;
+}
+.column2 {
+  float:right;
+  width: 30%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  background-color: rgb(50, 95, 50);
+  font-size: 16px;
+}
+.column2 table{
+  background-color: white;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+figure.snip0048 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 220px;
+  max-width: 310px;
+  max-height: 390px;
+  width: 100%;
+  background: white;
+  color: #ffffff;
+  text-align: left;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+figure.snip0048 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+figure.snip0048 img {
+  max-width: 100%;
+  opacity: 0.2;
+}
+figure.snip0048 figcaption {
+  position: absolute;
+  top: 0;
+  text-align: center;
+  padding: 20% 15%;
+  height: 100%;
+  width: 100%;
+}
+figure.snip0048 figcaption h2 {
+  font-size: 1.8em;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  padding: 6px;
+  margin: 0;
+  border-bottom: 2px solid #fff;
+  
+}
+figure.snip0048 figcaption h3 {
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+figure.snip0048 .icons {
+  bottom: 4px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+figure.snip0048 .icons i {
+  display: inline-block;
+  font-size: 26px;
+  color: #ffffff;
+  padding: 5px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  -webkit-transform: translate(0, 35px);
+  transform: translate(0, 35px);
+}
+figure.snip0048 a {
+  opacity: 0.7;
+}
+figure.snip0048 a:hover {
+  opacity: 1;
+}
+figure.snip0048.blue {
+  background: #e83879;
+}
+figure.snip0048.red {
+  background: #2ea1da;
+}
+figure.snip0048.yellow {
+  background: #fbb845;
+}
+figure.snip0048.green {
+  background: #ffb6b9;
+}
+figure.snip0048.orange {
+  background: #3894A3;
+}
+figure.snip0048.pink {
+  background: #91beb9;
+}
+figure.snip0048:hover img,
+figure.snip0048.hover img {
+  opacity: 0;
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+figure.snip0048:hover h3,
+figure.snip0048.hover h3 {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  opacity: 1;
+}
+figure.snip0048:hover .icons i,
+figure.snip0048.hover .icons i {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+figure.snip0048:hover a:first-child i,
+figure.snip0048.hover a:first-child i {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+figure.snip0048:hover a:nth-child(2) i,
+figure.snip0048.hover a:nth-child(2) i {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+figure.snip0048:hover a:nth-child(3) i,
+figure.snip0048.hover a:nth-child(3) i {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+/* Demo purposes only */
+html {
+  height: 100%;
+}
+body {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  margin: 0;
+  height: 100%;
+}

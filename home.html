@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>kids Dreamz</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">
+		<div class="nav_bar">
+	      <ul class flex flex-wrap>
+	  		 <li><a href="home.html">Home</a></li>
+	 		   <li><a href="about.html">About</a></li>
+	 		   <li><a href="gallery.html">Programme</a></li>
+	  		 <li><a href="contact.html">Contact</a></li>
+			   <li><a href="register.html">Register</a></li>
+		   </ul>
+		</div>
+	</div>
+  </header>
+  <main>
+    <div class="intro">
+      <h1 class="animated-title">K!DS DREAMZ</h1>
+      <button><a href="learn.html">Learn More</a></button>
+    </div>
+    <section>
+      <img class="mySlides" src="banner1.jpg"
+      style="width:100%">
+      <img class="mySlides" src="banner2.jpg"
+      style="width:100%">
+      <img class="mySlides" src="pro1.jpg"
+      style="width:100%">
+      <img class="mySlides" src="pro2.jpg"
+      style="width:100%">
+      </section>
+      <script>
+      // Automatic Slideshow - change image every 3 seconds
+      var myIndex = 0;
+      carousel();
+      
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 3000);
+      }
+      </script>		 
+  </body>	
+    <div class="achievements">
+      <div class="work1">
+        <i class="fas fa-atom"></i>
+        <p class="work-heading">Vision</p>
+        <p class="work-text">Our goal is to respond to the call of creating the emerging leaders of tomorrow.our fashion to provide good education and make the kids active and knowlegable student in india</p>
+      </div>
+      <div class="work2">
+        <i class="fas fa-skiing"></i>
+        <p class="work-heading">Awards&reconigtion</p>
+        <p class="work-text">Appreciation is a wonderful thing. Have a look at the success and achievements of Asia's No. 1 preschool. Winner of “Best Content and Delivery Award”, Indian Education Congress in 2011...</p>
+      </div>
+      <div class="work3">
+        <i class="fas fa-ethernet"></i>
+        <p class="work-heading">legacy</p>
+        <p class="work-text">In our decade-long legacy of nurturing the ‘unique potential’ of every child, we have shaped, in metros and suburbs alike, a new cult of schooling for toddlers..</p>
+      </div>
+    </div>
+    <div class="row">
+  <div class="column3">
+    <div class="card">
+      <img src="https://www.cadence-education.com/wp-content/uploads/2023/02/Screen-Shot-2023-02-06-at-11.19.43-AM-1030x690.png" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Play group</h2>
+        <p>In the playgroup level, the young learners develop their latent language and math skills. encourage the studends and play with them make them active </p> 
+        <form>
+        <table>
+          <tr>
+            <th>Age Group</th>
+            <th>Duration</th>
+          </tr>
+          <br>
+          <tr>
+            <td>1.5-2.5 years*</td>
+            <td>2 hours 45 minutes/day</td>
+          </tr>
+        </table>   
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="column1">
+    <div class="card">
+      <img src="https://5.imimg.com/data5/VN/DA/GLADMIN-27699787/play-group-500x500.png" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Nursery</h2>
+        <p>The nursery level engages children in school readiness and theme based activities such as reading, writing, counting, number recognition, and problem-solving in a fun-filled but purposeful manner.</p>
+      <form>
+        <table>
+          <tr>
+            <th>Age Group</th>
+            <th>Duration</th>
+          </tr>
+          <br>
+          <tr>
+          <td>2.5-3.5 years*</td>
+          <td>2 hours 45minutes/day</td>
+          </tr>
+        </table>
+      </form>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column2">
+    <div class="card">
+      <img src="https://rainbowpreschools.com/wp-content/uploads/elementor/thumbs/Creativity-pvvcrwf4dmig82qqlzcghl942mf2bqzjo6gzve8mww.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Kinder garden</h2>
+        <p>The Kindergarten (KG) level ensures a smooth transition to formal schooling.this catogery is divided into two junior K.G and senior K.G  to make them interactive prepare for schooling      </p>
+      <form>
+        <table>
+          <tr>
+            <th>Group</th>
+            <th>Age Group</th>
+            <th>Duration</th>
+          </tr>
+          <td>Junior K.G</td>
+          <td>3.5-4.5years</td>
+          <td>3hours 45minutes/day</td>
+          </tr>
+          <tr>
+            <td>Senior K.G</td>
+            <td>4.5-5.5years*</td>
+            <td>4 hours/day</td>
+          </tr>
+          </table>
+        </table>
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="video">
+  <video id="Test_Video"  width="100%" controls autoplay muted loop>
+    <source src="vid.mp4"
+            type="video/mp4">
+    <source src="vid.mp4"
+            type="video/ogg">
+</video>
+</div>
+<br>
+<br>
+      <div class="row">
+        <div class="column" onclick="openTab('b1');" style="background:#fbb845;">
+        2000+ centres
+        750+ cities
+        1000000+ students
+        </div>
+        <div class="column" onclick="openTab('b2');" style="background:#2ea1da;">
+          Parent's Speak
+          about our school
+          100% original commends
+        </div>
+        <div class="column" onclick="openTab('b3');" style="background:#e83879;">
+         Teacher Training Programme
+         by Dr.Vijaya
+        </div>
+      </div>
+      
+      <!-- Full-width columns: (hidden by default) -->
+      <div id="b1" class="containerTab" style="display:none;background:#fbb845">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <h2>Centres</h2>
+        <a href="#"><i class="fab fa-phone"></i></a>
+        <p>There 2000+ centres are running all over the world . we are providing the quality of education without considering about the money since 2010.we have centre in more than 700+ country all over the world providing valuable education.and we have 10000000+ studets studying in kids dreamz .</p>
+      </div>
+      
+      <div id="b2" class="containerTab" style="display:none;background:#2ea1da">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <h2>Parent's Thoghts</h2>
+        <a href="#"><i class="fab fa-email"></i></a>
+        <p>Our heartfelt gratitude to kids dreamz India for providing our kids a home away home to facilitate their growth and development
+          I am a working woman so i join my child in kids dreamz .now i am happy they are take care my son very well.This school heling all working woman THANK YOU KIDS DREAMZ.
+        </p>
+        <p>By Narmadha</p>
+        
+      </div>
+      
+      <div id="b3" class="containerTab" style="display:none;background:#e83879">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <h2>Teacher Training Programme</h2>
+        <a href="#"><i class="fab fa-clock-o"></i></a>
+        <p>This teacher training course will lead to the creation of world best quality educators in the preschool segment.This segment is organized by our president.and this will happen every month
+          with Doctor consultation the teacher's are trained by "How to take care of the childrens well"
+        </p>
+      </div>
+      
+      <script>
+      function openTab(tabName) {
+        var i, x;
+        x = document.getElementsByClassName("containerTab");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        document.getElementById(tabName).style.display = "block";
+      }
+      </script>
+      
+    </div>
+  </main>
+  <br>
+  <br>
+  <footer class="bg-dark-1">
+    <section id="footer" class="py-5">
+      <div class="container text-center">
+        <a href="#" class="twitter"></a>
+        <a href="#" class="linkedin"></a>
+        <a href="#" class="facebook"></a>
+        <a href="#" class="skype"></a>
+        <a href="#" class="flickr"></a>
+        <h6 class="m-0 mt-4 text-center text-white text-capitalize">Copyright &copy; 2023 designed by sumathi</h6>
+      </div>
+    </section>
+  </footer>
+</body>
+</html>
